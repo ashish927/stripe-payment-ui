@@ -178,7 +178,8 @@ export class StripePage {
       component: PaymentMessagePage,
       componentProps: {
         "id": paymentIntent.id,
-        "message": paymentIntent.status
+        "message": paymentIntent.status,
+        "amount": String(paymentIntent.amount).slice(0, -2) + " " + "INR"
       },
       cssClass: 'my-custom-modal-css'
     });

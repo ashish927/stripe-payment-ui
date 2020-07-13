@@ -11,6 +11,7 @@ export class PaymentMessagePage implements OnInit {
 
   message;
   id;
+  amount;
   ngOnInit() {
   }
 
