@@ -1,0 +1,17 @@
+.welcome-card ion-img {
+  max-height: 35vh;
+  overflow: hidden;
+}
+
+.modal-wrapper {
+  background: #222;
+}
+
+/* Works - pass "my-custom-class" in cssClass to increase specificity */
+.my-custom-class .modal-wrapper {
+  background: #222;
+}
+
+.my-custom-class {
+  --background: #222;
+}
